@@ -48,6 +48,56 @@ obj.forEach(key => console.log(key))
 
 
 2)Create your own resume data in JSON format
+var resume=
+{
+  personal_deatils:
+  {
+  name:"yukesh",
+  age:21,
+  college_name:"anna university",
+  fathers_name:"vasudevan",
+  mothers_name:"umadevi"
+  },
+  educational_qualification:
+  {
+    college:
+    {
+      name:"anna university",
+      yearofpassing:2021,
+      percentage:80
+    },
+    school:
+    {
+      name:"zion matric hr sec school",
+      yearofpassing:2017,
+      percentage:98
+    },
+    school:
+    {
+      name:"zion matric hr sec school",
+      yearofpassing:2015,
+      percentage:84
+    }
+  },
+  key_skills:
+  {
+    IT:["c,c++,python"],
+    mechanical:["engine assemble","metalforming","pcb"]
+
+  },
+  projects:["engine assembly","petrol engine","automated physiotheraphy","carburettoe"],
+  sports:{
+    cricket:"distrct",
+    kho_kho:"distrcit"
+  },
+ 
+  
+
+
+
+
+};
+console.log(resume);
 
 
 
